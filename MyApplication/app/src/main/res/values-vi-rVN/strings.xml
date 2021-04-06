@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerName">
+        <item>Tất cả chủ đề</item>
+        <item>Sơ cấp</item>
+        <item>Trung cấp</item>
+        <item>Cao cấp</item>
+    </string-array>
+    <string name="app_name">KickEnglish</string>
+    <string name="txtUseremail">Tên đăng nhập/Email</string>
+    <string name="txtPass">Mật khẩu</string>
+    <string name="txtForgotpass">Quên mật khẩu?</string>
+    <string name="txtOr">Hoặc</string>
+    <string name="txtSignUp">Đăng ký</string>
+    <string name="btnSignInG">Đăng nhập với Google</string>
+    <string name="btnSignInF">Đăng nhập với Facebook</string>
+    <string name="btnSignInA">Đăng nhâp với Apple</string>
+    <string name="txtSignIn">Đăng nhập</string>
+    <string name="txtuser">Tên đăng nhập</string>
+    <string name="txtemail">Email</string>
+    <string name="btnSignUpG">Đăng ký với Google</string>
+    <string name="btnSignUpF">Đăng ký với Facebook</string>
+    <string name="btnSignUpA">Đăng ký với Apple</string>
+    <string name="txtNLP">NLP</string>
+    <string name="txtPronunciation">Phát âm</string>
+    <string name="txtConversation">Giao tiếp</string>
+    <string name="txtTraining">Lộ trình đào tạo</string>
+    <string name="txtCourse">Khoá học</string>
+    <string name="txtTutorial">Hướng dẫn</string>
+    <string name="txtTopvideo">Video nổi bật trong tuần</string>
+    <string name="txtFeature">Nhân vật nổi bật</string>
+    <string name="txtLesson">Bài học từ thành viên</string>
+    <string name="txtPlaySamplevideo">Xem video mẫu</string>
+    <string name="txtRolePlaying">Đóng vai</string>
+    <string name="txtAlltopic">Tất cả chủ đề</string>
+    <string name="txtBeginner">Sơ cấp</string>
+    <string name="txtIntermediate">Trung cấp</string>
+    <string name="txtAdvanced">Cao cấp</string>
+    <string name="txtMore">Xem thêm</string>
+    <string name="txtLess">Ẩn bớt</string>
+    <string name="txtBack">Quay lại</string>
+    <string name="txtStyle">Phong cách</string>
+    <string name="txtFirstName">Họ</string>
+    <string name="txtlastName">Tên</string>
+    <string name="txtGender">Giới tính</string>
+    <string name="txtDoB">Ngày sinh</string>
+    <string name="txtLanguage">Ngôn ngữ</string>
+    <string name="txtDes">Mô tả</string>
+    <string name="txtnation">Quốc tịch</string>
+    <string name="txtphone">Số điện thoại</string>
+    <string name="txtSave">Lưu</string>
+    <string name="txtSetting">Cài đặt</string>
+    <string name="changePass">Đổi mật khẩu</string>
+    <string name="currentpass">Nhập mật khẩu hiện tại</string>
+    <string name="newpass">Nhập mật khẩu mới</string>
+    <string name="confirmpass">Xác nhận mật khẩu mới</string>
+    <string name="seeAll">Xem tất cả</string>
+    <string name="logOut">Đăng xuất</string>
+    <string name="titlemore">Khác</string>
+    <string name="share">Chia sẻ</string>
+    <string name="account">Tài khoản</string>
+    <string name="news">Tin tức</string>
+    <string name="shop">Cửa hàng</string>
+    <string name="follow">Theo dõi chúng tôi trên</string>
+    <string name="artist">NSND</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="other">Khác</string>
+    <string name="unknown">Không xác định</string>
+</resources>

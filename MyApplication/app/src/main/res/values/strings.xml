@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">KickEnglish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string-array name="spinnerName">
+        <item>All topics</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string name="txtUseremail">Username/email</string>
+    <string name="txtPass">Password</string>
+    <string name="txtForgotpass">Forgot password ?</string>
+    <string name="txtOr">OR</string>
+    <string name="txtSignUp">Sign Up</string>
+    <string name="btnSignInG">Sign In With Google</string>
+    <string name="btnSignInF">Sign In With Facebook</string>
+    <string name="btnSignInA">Sign In With Apple</string>
+    <string name="txtSignIn">Sign In</string>
+
+    <string name="txtuser">Username</string>
+    <string name="txtemail">Email</string>
+
+    <string name="btnSignUpG">Sign Up With Google</string>
+    <string name="btnSignUpF">Sign Up With Facebook</string>
+    <string name="btnSignUpA">Sign Up With Apple</string>
+
+    <string name="txtNLP">NLP</string>
+    <string name="txtPronunciation">Pronunciation</string>
+    <string name="txtConversation">Conversation</string>
+    <string name="txtTraining">Training Route</string>
+    <string name="txtCourse">Course</string>
+    <string name="txtTutorial">Tutorial</string>
+
+    <string name="txtTopvideo">Top Video This Week</string>
+    <string name="txtFeature"> Featured Artist</string>
+    <string name="txtLesson">Lesson from Members</string>
+
+    <string name="txtPlaySamplevideo">WATCH A SAMPLE VIDEO</string>
+    <string name="txtRolePlaying">ROLE-PLAYING</string>
+    <string name="txtStyle">STYLE</string>
+
+    <string name="txtAlltopic">All topics</string>
+    <string name="txtBeginner">Beginner</string>
+    <string name="txtIntermediate">Intermediate</string>
+    <string name="txtAdvanced">Advanced</string>
+
+    <string name="txtMore">View more</string>
+    <string name="txtLess"> View less</string>
+    <string name="txtBack">Back</string>
+
+    <string name="txtFirstName">First name</string>
+    <string name="txtlastName">Last name</string>
+    <string name="txtGender">Gender</string>
+    <string name="txtDoB">Date of Birth</string>
+    <string name="txtLanguage">Language</string>
+    <string name="txtDes">Description</string>
+    <string name="txtnation">Nation</string>
+    <string name="txtphone">Phone</string>
+    <string name="txtSave">Save</string>
+    <string name="txtSetting">Setting</string>
+    <string name="changePass">Change Password</string>
+
+    <string name="currentpass">Enter Current Password</string>
+    <string name="newpass">Enter New Password</string>
+    <string name="confirmpass">Confirm New Password</string>
+    <string name="message">Confirm password does not match</string>
+
+    <string name="titlemore">More</string>
+    <string name="seeAll">See All</string>
+    <string name="logOut">Log Out</string>
+    <string name="share">Share</string>
+    <string name="follow">Follow us</string>
+    <string name="account">My Account</string>
+    <string name="shop">Shop</string>
+    <string name="news">News</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="artist">Artist</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="player">Player</string>
+    <string name="unknown">Unknown</string>
+    <string name="transcript">Transcript</string>
+    <string name="video">Video</string>
+
+
+</resources>

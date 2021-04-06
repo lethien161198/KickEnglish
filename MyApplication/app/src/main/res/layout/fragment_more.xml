@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <include layout="@layout/header"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/Pronunciation"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/pronunciation"
+            app:layout_constraintRight_toLeftOf="@id/Conversation"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/txtPronunciation"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/Pronunciation"
+            app:layout_constraintRight_toRightOf="@id/Pronunciation"
+            app:layout_constraintTop_toTopOf="@id/Pronunciation" />
+
+        <ImageView
+            android:id="@+id/Conversation"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toRightOf="@id/Pronunciation"
+            app:layout_constraintRight_toRightOf="parent"
+            android:src="@drawable/conversation"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/txtConversation"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/Conversation"
+            app:layout_constraintRight_toRightOf="@id/Conversation"
+            app:layout_constraintTop_toTopOf="@id/Conversation" />
+
+        <ImageView
+            android:id="@+id/News"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/news"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/Shop"
+            app:layout_constraintTop_toBottomOf="@+id/Pronunciation" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/news"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/News"
+            app:layout_constraintRight_toRightOf="@id/News"
+            app:layout_constraintTop_toTopOf="@id/News" />
+
+        <ImageView
+            android:id="@+id/Shop"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shop"
+            app:layout_constraintLeft_toRightOf="@id/News"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Conversation" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/shop"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/Shop"
+            app:layout_constraintRight_toRightOf="@id/Shop"
+            app:layout_constraintTop_toTopOf="@id/Shop" />
+
+        <ImageView
+            android:id="@+id/Account"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/account"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/Share"
+            app:layout_constraintTop_toBottomOf="@+id/News" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/account"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/Account"
+            app:layout_constraintRight_toRightOf="@id/Account"
+            app:layout_constraintTop_toTopOf="@id/Account" />
+
+        <ImageView
+            android:id="@+id/Share"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/share"
+            app:layout_constraintLeft_toRightOf="@id/Account"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Shop" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/share"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#4D000000"
+            app:layout_constraintLeft_toLeftOf="@id/Share"
+            app:layout_constraintRight_toRightOf="@id/Share"
+            app:layout_constraintTop_toTopOf="@id/Share" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/follow"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="90dp"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
